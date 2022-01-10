@@ -1,3 +1,4 @@
+import os
 def menu():
     choice = '0';
     while choice == '0':
@@ -9,3 +10,5 @@ def menu():
         print
         choice = input ("Escolhar uma opção: ")
     return choice
+def clear():
+    os.system('clear')
